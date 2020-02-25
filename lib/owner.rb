@@ -59,6 +59,7 @@ class Owner
         x.mood = "happy"
       end
     end
+  end
   
   def feed_cats
     Cat.all.select do |x|
