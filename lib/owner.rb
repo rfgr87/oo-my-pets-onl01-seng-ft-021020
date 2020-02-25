@@ -59,6 +59,7 @@ class Owner
         x.mood = "happy"
       end
     end
+  end
   
   def feed_cats
     Cat.all.select do |x|
@@ -97,5 +98,4 @@ class Owner
     return "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
   end
     
-end
 end
